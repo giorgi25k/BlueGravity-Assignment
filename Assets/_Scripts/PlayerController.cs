@@ -37,6 +37,6 @@ public class PlayerController : MonoBehaviour
 
     private void Move()
     {
-        _rigidbody2d.velocity = _motionVector * _speed * Time.fixedDeltaTime;
+        _rigidbody2d.velocity = _motionVector.normalized * _speed * Time.fixedDeltaTime;
     }
 }
