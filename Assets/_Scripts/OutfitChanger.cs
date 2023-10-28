@@ -14,6 +14,7 @@ public class OutfitChanger : MonoBehaviour
 
     [SerializeField] private Image _skinImage;
     [SerializeField] private TMP_Text _skinName;
+    [SerializeField] private TMP_Text _priceText;
     [SerializeField] private int _cost;
     [SerializeField] private bool _isBought;
 
@@ -25,6 +26,7 @@ public class OutfitChanger : MonoBehaviour
         _skin = _outfitObject.Skin;
         _skinImage.sprite = _outfitObject.Skin;
         _cost = _outfitObject.Cost;
+        _priceText.text = _cost.ToString();
     }
 
     public void Buy()
