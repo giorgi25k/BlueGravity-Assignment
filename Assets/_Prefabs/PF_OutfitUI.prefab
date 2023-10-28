@@ -981,9 +981,11 @@ MonoBehaviour:
   _outfitObject: {fileID: 11400000, guid: 59bc6e0994558e443aa364dbd2b6b957, type: 2}
   _spriteToChange: {fileID: 0}
   _buyButton: {fileID: 2973029456913088253}
+  _sellButton: {fileID: 4718445609956558252}
   _chooseButton: {fileID: 1821120587338670650}
   _skinImage: {fileID: 2973029457546555809}
   _skinName: {fileID: 2973029458020655210}
+  _cost: 0
   _isBought: 0
 --- !u!1 &4718445609956558252
 GameObject:
@@ -1003,7 +1005,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7401730184099794679
 RectTransform:
   m_ObjectHideFlags: 0

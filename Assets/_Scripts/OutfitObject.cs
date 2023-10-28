@@ -8,5 +8,7 @@ public class OutfitObject : ScriptableObject
 {
     public string SkinName;
     public Sprite Skin;
+    public Sprite DefaultSkin;
     public bool Owned;
+    public int Cost;
 }

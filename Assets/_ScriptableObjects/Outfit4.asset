@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SkinName: Spikebat
   Skin: {fileID: 21300000, guid: 4807dc8cba98f89409729f6aac2945a7, type: 3}
-  Cost: 100
+  DefaultSkin: {fileID: 21300000, guid: c376d5b80d02ffe4ba89fd03d60ec471, type: 3}
   Owned: 0
+  Cost: 100

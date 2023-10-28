@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
 
     private static int ANIMATOR_HEX_HORIZONTAL = Animator.StringToHash("horizontal");
     private static int ANIMATOR_HEX_VERTICAL = Animator.StringToHash("vertical");
+    public static int Money;
 
     void Awake()
     {

@@ -2,16 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ShopKeeper : MonoBehaviour
+public class ItemPickupUI : MonoBehaviour
 {
-    [SerializeField] private GameObject _shopKeeperUI;
-
+    [SerializeField] private GameObject _itemPickupUI;
+    private GameObject _enteredPlayer;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            _shopKeeperUI.SetActive(true);
+            _enteredPlayer = collision.gameObject;
+            _itemPickupUI.SetActive(true);
         }
     }
 
@@ -19,7 +20,8 @@ public class ShopKeeper : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            _shopKeeperUI.SetActive(false);
+            _enteredPlayer = null;
+            _itemPickupUI.SetActive(false);
         }
     }
 }
