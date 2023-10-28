@@ -7,8 +7,8 @@ using UnityEngine.UI;
 public class OutfitObject : ScriptableObject
 {
     public string SkinName;
-    public Sprite Skin;
-    public Sprite DefaultSkin;
+    public Sprite SkinImage;
+    public Sprite[] Skin;
     public bool Owned;
     public int Cost;
 }

@@ -12,8 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a4c4bfb5b7f2374f920c3cf8bd0c9a2, type: 3}
   m_Name: Outfit3
   m_EditorClassIdentifier: 
-  SkinName: Soul Stealer
-  Skin: {fileID: 21300000, guid: 0c6412d95175c2b40bd9a27f7d1fa096, type: 3}
-  DefaultSkin: {fileID: 21300000, guid: c376d5b80d02ffe4ba89fd03d60ec471, type: 3}
+  SkinName: Outfit 3
+  SkinImage: {fileID: 21300000, guid: ccf9e54b2ca3c4f4d8df49eeb8c2eec8, type: 3}
+  Skin:
+  - {fileID: 21300000, guid: 6fa8902135d83ff49a376c05761b61d4, type: 3}
+  - {fileID: 21300000, guid: ed569bcf23ebe674180d6ae7a5d29495, type: 3}
+  - {fileID: 21300000, guid: 5e7415947ce8b1c47ade9a3d811da6cd, type: 3}
+  - {fileID: 21300000, guid: c100ecf6707adf24083cea1e4063c659, type: 3}
+  - {fileID: 21300000, guid: 518ab34707033904cb1d99dbfcc9f4bb, type: 3}
+  - {fileID: 21300000, guid: e17e5dd745f21b043bd6d387e5c5a19b, type: 3}
+  - {fileID: 21300000, guid: ae2d3e3bacfacde4981510b116293dba, type: 3}
+  - {fileID: 21300000, guid: 0038d4b0669b99846b9be93321f9d7a4, type: 3}
+  - {fileID: 21300000, guid: e374a8e2ee1ae6b4c938a59399b39ffb, type: 3}
+  - {fileID: 21300000, guid: 0c6412d95175c2b40bd9a27f7d1fa096, type: 3}
+  - {fileID: 21300000, guid: 805906b1206aa944b99385aa2c600d2f, type: 3}
+  - {fileID: 21300000, guid: 9fe981f3e80b99e429e4399b985d07f4, type: 3}
+  - {fileID: 21300000, guid: 124013dbba7f284489ac16156c930131, type: 3}
+  - {fileID: 21300000, guid: 44fa20638679f684891b3b8f8ae65078, type: 3}
+  - {fileID: 21300000, guid: 30716b7cc770c7b46beff26e032f9ca7, type: 3}
   Owned: 0
-  Cost: 40
+  Cost: 60

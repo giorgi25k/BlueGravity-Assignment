@@ -1,31 +1,29 @@
-using System.Collections;
-using System.Collections.Generic;
-using TMPro;
+﻿using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class OutfitChanger : MonoBehaviour
+public class WeaponChanger : MonoBehaviour
 {
-    [SerializeField] OutfitObject _outfitObject;
+    [SerializeField] WeaponObject _weaponObject;
     [SerializeField] SpriteRenderer[] _spriteToChange;
     [SerializeField] GameObject _buyButton;
     [SerializeField] GameObject _sellButton;
     [SerializeField] GameObject _chooseButton;
 
-    [SerializeField] private Image _skinImage;
-    [SerializeField] private TMP_Text _skinName;
+    [SerializeField] private Image _weaponImage;
+    [SerializeField] private TMP_Text _weaponName;
     [SerializeField] private TMP_Text _priceText;
-    
+
     private int _cost;
     private Sprite[] _skin;
     private bool _isBought;
 
     private void Start()
     {
-        _skinName.text = _outfitObject.SkinName;
-        _skin = _outfitObject.Skin;
-        _skinImage.sprite = _outfitObject.SkinImage;
-        _cost = _outfitObject.Cost;
+        _weaponName.text = _weaponObject.WeaponName;
+        _skin = _weaponObject.WeaponSkin;
+        _weaponImage.sprite = _weaponObject.WeaponImage;
+        _cost = _weaponObject.Cost;
         _priceText.text = _cost.ToString();
     }
 

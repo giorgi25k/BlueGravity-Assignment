@@ -392,8 +392,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 88851437716841935}
-        m_TargetAssemblyTypeName: OutfitChanger, Assembly-CSharp
+      - m_Target: {fileID: 3624417792696499585}
+        m_TargetAssemblyTypeName: WeaponChanger, Assembly-CSharp
         m_MethodName: Choose
         m_Mode: 1
         m_Arguments:
@@ -603,8 +603,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 88851437716841935}
-        m_TargetAssemblyTypeName: OutfitChanger, Assembly-CSharp
+      - m_Target: {fileID: 3624417792696499585}
+        m_TargetAssemblyTypeName: WeaponChanger, Assembly-CSharp
         m_MethodName: Buy
         m_Mode: 1
         m_Arguments:
@@ -627,7 +627,7 @@ GameObject:
   - component: {fileID: 2973029457546555808}
   - component: {fileID: 2973029457546555809}
   m_Layer: 5
-  m_Name: OutfitImage
+  m_Name: WeaponImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -838,7 +838,7 @@ GameObject:
   - component: {fileID: 2973029458020655209}
   - component: {fileID: 2973029458020655210}
   m_Layer: 5
-  m_Name: OutfitTxt
+  m_Name: WeaponTxt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -972,9 +972,9 @@ GameObject:
   - component: {fileID: 2973029458418507344}
   - component: {fileID: 2973029458418507374}
   - component: {fileID: 2973029458418507375}
-  - component: {fileID: 88851437716841935}
+  - component: {fileID: 3624417792696499585}
   m_Layer: 5
-  m_Name: PF_OutfitUI
+  m_Name: PF_WeaponUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1043,7 +1043,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &88851437716841935
+--- !u!114 &3624417792696499585
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1052,17 +1052,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 2973029458418507345}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f226ccee5ff112243beab481e0424d36, type: 3}
+  m_Script: {fileID: 11500000, guid: d8101462914bf564c9ac1469d786ddd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _outfitObject: {fileID: 11400000, guid: 59bc6e0994558e443aa364dbd2b6b957, type: 2}
-  _spriteToChange:
-  - {fileID: 0}
+  _weaponObject: {fileID: 11400000, guid: 53c4c68ce5b928649a7741ca65bf5638, type: 2}
+  _spriteToChange: []
   _buyButton: {fileID: 2973029456913088253}
   _sellButton: {fileID: 4718445609956558252}
   _chooseButton: {fileID: 1821120587338670650}
-  _skinImage: {fileID: 2973029457546555809}
-  _skinName: {fileID: 2973029458020655210}
+  _weaponImage: {fileID: 2973029457546555809}
+  _weaponName: {fileID: 2973029458020655210}
   _priceText: {fileID: 7143913346307875823}
 --- !u!1 &4718445609956558252
 GameObject:
@@ -1186,8 +1185,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 88851437716841935}
-        m_TargetAssemblyTypeName: OutfitChanger, Assembly-CSharp
+      - m_Target: {fileID: 3624417792696499585}
+        m_TargetAssemblyTypeName: WeaponChanger, Assembly-CSharp
         m_MethodName: Sell
         m_Mode: 1
         m_Arguments:
